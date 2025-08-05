@@ -4,10 +4,6 @@
 
 
 
-// Reference (Non primitive)
-
-//Array, Objects, Functions
-
 const score = 100
 const scoreValue = 100.3
 
@@ -21,6 +17,12 @@ const anotherId = Symbol('123')
 console.log(id === anotherId);
 
 const bigNumber = 3165435645131564562n
+
+
+
+// Reference (Non primitive)
+
+//Array, Objects, Functions
 
 const heros = ["shaktiman", "spiderman", "ironman"];
 
@@ -36,3 +38,12 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Prmitive)
+
