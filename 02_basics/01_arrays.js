@@ -36,6 +36,3 @@ const myn2 = myArr.splice(1,3)
 console.log("c",myArr);
 
 console.log(myn2);
-
-
-
